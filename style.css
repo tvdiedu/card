@@ -1,0 +1,107 @@
+body{
+    background-color: #eeeeee;
+    font-family: "Microsoft Yahei";
+}
+
+.card {
+    width: 450px;
+    height: 270px;
+
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ----------------------------------------- */
+
+.top {
+    color: #1D7FAA;
+    margin-top: 35px;
+    margin-left: 20px; 
+
+    width: 410px;
+}
+.top p{  
+    font-size: 20px;
+    border-bottom: 2px solid #1D7FAA;
+}
+
+/* -------------------------------------------- */
+
+.mid {
+    width: 410px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+/* ----------------- */
+.name , .contact {
+    /* 並排 */
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+/* --------------------------- */
+.name {
+    margin-top: 35px;
+    /* margin-left: 30px; */
+}
+
+.name p{
+    margin: 0px;
+    font-weight: bold;
+}
+/* ------------ */
+.chinese {
+    font-size: 18px;
+}
+.chinese span {
+    font-size: 12px;
+}
+/* ------------ */
+
+.eng {  
+    font-size: 10px;
+}
+/* --------------------------- */
+
+ .contact {
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: 15px;
+    line-height: 19px;
+}
+.contact p{
+    margin-bottom: 0px;
+}
+/* -------------------------------------------- */
+
+.bot {   
+    background-color: #1D7FAA;
+
+    width: 100%;
+    height: 70px;
+
+    position:absolute;
+    bottom: 0px;
+    /* https://ithelp.ithome.com.tw/articles/10253814 */
+
+    border-radius: 0 0 10px 10px;
+    color: #FFF;
+    padding: 10px;
+
+    box-sizing: border-box;
+}   
+.addr , .tel{
+    /* position: relative; */
+    /* top: 20px; */
+    font-size: 14px;
+    margin: 0 0 0 20px;
+    padding-top: 5px;
+} 
